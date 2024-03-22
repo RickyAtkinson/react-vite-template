@@ -7,6 +7,7 @@ module.exports = {
     "plugin:react/recommended",
     "plugin:react/jsx-runtime",
     "plugin:react-hooks/recommended",
+    "plugin:jsx-a11y/recommended",
     "prettier",
   ],
   ignorePatterns: ["dist", ".eslintrc.cjs"],
@@ -20,12 +21,17 @@ module.exports = {
     project: ["./tsconfig.json", "./tsconfig.node.json"],
     tsconfigRootDir: __dirname,
   },
-  plugins: ["react", "react-refresh"],
+  plugins: ["react", "react-refresh", "jsx-a11y"],
   rules: {
     "react/react-in-jsx-scope": 0,
     "react-refresh/only-export-components": [
       "warn",
       { allowConstantExport: true },
     ],
+  },
+  settings: {
+    react: {
+      version: "detect",
+    },
   },
 };
