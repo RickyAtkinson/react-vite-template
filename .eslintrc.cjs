@@ -1,16 +1,16 @@
 module.exports = {
   root: true,
-  env: { browser: true, es2020: true, node: true },
+  env: { browser: true, es2021: true, node: true },
   extends: [
     "eslint:recommended",
-    "plugin:@typescript-eslint/recommended-type-checked",
+    "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
     "plugin:react/jsx-runtime",
     "plugin:react-hooks/recommended",
     "plugin:jsx-a11y/recommended",
     "prettier",
   ],
-  ignorePatterns: ["dist", ".eslintrc.cjs"],
+  ignorePatterns: ["*.cjs", "dist", "node_modules"],
   parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaVersion: "latest",
