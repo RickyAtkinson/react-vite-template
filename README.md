@@ -2,9 +2,10 @@
 
 A basic React Vite template built for practice projects.
 
-Project Expands on the default Vite template with:
+This template expands on the default Vite template with:
 
-- Formatting with prettier and extended eslint configuration
+- An extended eslint configuration
+- Formatting with prettier
 - Typescript
 - TailwindCSS
 
