@@ -5,7 +5,7 @@ import { name } from "./package.json";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: `/${name}`,
+  base: `/${name}/`,
   plugins: [react()],
   resolve: {
     alias: {
