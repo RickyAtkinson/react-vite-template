@@ -6,7 +6,7 @@ export default function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="flex min-h-dvh min-w-80 flex-col justify-center">
+    <main className="container mx-auto flex min-h-dvh flex-col justify-center p-8 text-center md:p-10">
       <div className="mb-8 flex justify-center gap-x-10">
         <a
           className="font-medium text-indigo-600 hover:text-indigo-400"
@@ -50,6 +50,6 @@ export default function App() {
           Click on the Vite and React logos to learn more
         </p>
       </div>
-    </div>
+    </main>
   );
 }
