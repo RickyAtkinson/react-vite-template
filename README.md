@@ -19,6 +19,7 @@ To start a new project with this template:
 1. Open a terminal and navigate to where you want to keep the project.
 1. Create a new folder named after the repository and navigate into it.
 1. Copy the template files to the folder with `pnpm dlx degit RickyAtkinson/react-vite-template`.
+1. Install the project dependencies with `pnpm install`.
 1. Update the `name` field in the `package.json` file to match your repository name.
 
    > If you plan to host this project on GitHub Pages with the `gh-pages` CLI, this field **needs** to match the repository name as Vite will use this as the `base` name for the project too.
