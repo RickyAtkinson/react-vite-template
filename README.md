@@ -33,7 +33,7 @@ To start a new project with this template:
    }
    ```
 
-1. Delete the `./public` and `./src/assets/` folders as they only contain example content.
+1. Delete the `./src/assets/` folder as it only contains example content.
 1. Remove any irrelevant content from the `README.md` file and update the title.
 1. Setup git with `git init`.
 1. Make your first commit with `git add .` then `git commit -m "Initial commit"`.
